@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text.css" href="style.css">
+</head>
+<body>
+    <form action="index.html" method="post">
+    <div class="signup-container">
+        <h2>Sign up</h2>
+    <br>
+    <label for="name">Name:</label>
+    <br>
+    <input type="text" name="name" id="name" placeholder="full name">
+    <br>
+    <label for="email">email:</label>
+    <br>
+    <input type="email" name="email" id="email" placeholder="gmail id">
+    <br>
+    <label for="password">Password:</label>
+    <br>
+    <input type="password" name="password" id="password" placeholder="8 characters">
+    <br>
+    <label for="password">Confirm Password:</label>
+    <br>
+    <input type="confirm-password" name="confirm-password" id="confirm-password" placeholder="8 characters">
+    <br>
+    <label for="date">Date Of Birth:</label>
+    <br>
+    <input type="date" name="date" id="date">
+    <br> <br>
+    <label for="gender">Gender:</label>
+    <br>
+    <label for="male">Male</label>
+    <input type="radio" name="Male" id="Male" value="Male">
+    <label for="female">Female</label>
+    <input type="radio" name="Female" id="Female" value="Female">
+    <label type="other">Other</label>
+    <input type="radio" name="Other" id="Other" value="Other">
+    <br> <br>
+    <label for="photo">Insert your photo:</label>
+    <input type="file" name="photo" id="photo">
+    <br> <br>
+    <label for="resume">Insert your resume:</label>
+    <input type="file" name="resume" id="resume">
+    <br> <br>
+    <label for="security question">Security Question:</label>
+    <br>
+    <select name="security-question" id="security-question">
+        <option value="">Select</option>
+        <option value="pet">What is your pet's name?</option>
+        <option value="city">What city were you born in?</option>
+    </select>
+    <br>
+    <textarea>
+
+    </textarea>
+    <br>
+    <input type="checkbox" name="terms"> I agree terms and conditions
+    <br>
+    <button type="submit">Register</button>
+</form>
+</body>
+</html>
